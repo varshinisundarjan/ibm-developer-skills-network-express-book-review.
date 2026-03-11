@@ -1,0 +1,11 @@
+curl "http://localhost:5000/books/title/Matilda"
+
+{
+  "books": [
+    {
+      "title": "Matilda",
+      "author": "Roald Dahl",
+      "reviews": {}
+    }
+  ]
+}
