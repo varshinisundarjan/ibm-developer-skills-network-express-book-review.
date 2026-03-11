@@ -1,0 +1,8 @@
+curl http://localhost:5000/books/review/9780140328721
+
+{
+  "reviews": {
+    "user1": "Excellent book for children!",
+    "user2": "Very interesting story and characters."
+  }
+}
