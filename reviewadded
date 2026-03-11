@@ -1,0 +1,11 @@
+curl -X PUT http://localhost:5000/books/review/9780140328721 \
+-H "Content-Type: application/json" \
+-d "{\"username\":\"user1\",\"review\":\"This book is amazing and very interesting!\"}"
+
+Review added successfully
+
+{
+  "reviews": {
+    "user1": "This book is amazing and very interesting!"
+  }
+}
