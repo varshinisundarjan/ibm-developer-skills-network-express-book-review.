@@ -1,0 +1,8 @@
+curl https://api.github.com/repos/your-username/express-book-review
+
+{
+  "fork": true,
+  "parent": {
+    "full_name": "ibm-developer-skills-network/express-book-review"
+  }
+}
